@@ -28,7 +28,7 @@ function Coffe({ coffe }) {
                                     <div className='status'>
                                     {
                                         item.available !== true ? (
-                                            <span className='available' style={{ color:'red' }}>sold out</span>
+                                            <span className='available' style={{ color:'#ED735C' }}>sold out</span>
                                         ):(
                                             ''
                                         )

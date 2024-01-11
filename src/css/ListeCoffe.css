@@ -70,8 +70,16 @@
         width: 70%;
     }
 }
-@media screen and (max-width:640) {
+@media screen and (max-width:640px) {
     .description {
         width: 90%;
+    }
+}
+@media screen and (max-width:400px) {
+    .container{
+        width: 83%;
+    }
+    .description {
+        width: 100%;
     }
 }
